@@ -9,6 +9,17 @@
 
 //----------
 
+   ///Some Basics Concepts of JavaScript are---
+   //-Printing Output..
+   //-Variables--
+   //Keywords and Identifiers-'''
+   //-Data Types...
+   //-Opertaors---
+   //-Coditional statements--
+   //-Looping--
+   //-Functions***
+   //-etc
+
 
 //-------
 console.log("Start JavaScript Language-----")
