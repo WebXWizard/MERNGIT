@@ -7,23 +7,33 @@
 
 // node --watch filename.js-- for simulatneously running---
 
+// We can write Js in browser console--Temporary
+//Permanent- GitHub and VS-Code...(Microsoft)
+
 //----------
+//-JavaScript is a Programming language.
+//-client side interpreted language..
+//Dynamaically typed---
+//-JavaScript is a lightweight programming language commonly used by web developers to add dynamic interactions to web pages, applications, servers, and even games.
+//-It works seamlessly alongside HTML and CSS, complementing CSS in formatting HTML elements while providing user interaction, a capability that CSS alone lacks.
 
-   ///Some Basics Concepts of JavaScript are---
-   //-Printing Output..
-   //-Variables--
-   //Keywords and Identifiers-'''
-   //-Data Types...
-   //-Opertaors---
-   //-Coditional statements--
-   //-Looping--
-   //-Functions***
-   //-etc
+                        /// JAVASCRIPT BEGINNING____(ES6 and  ES7 )
+                  ///Some Basics Concepts of JavaScript are---
+                  //-Printing Output..
+                  //-Variables--
+                  //Keywords and Identifiers-'''
+                  //-Data Types...
+                  //-Opertaors---
+                  //-Coditional statements--
+                  //-Looping--
+                  //-Functions***
+                  //-etc
 
 
-//-------
-console.log("Start JavaScript Language-----")
-console.log("  ")
+//------- for printing output--console.log
+
+console.log("Start JavaScript Language-----");
+console.log("  ");
 console.log("Hello Duniya!!!!")
 console.log("Shahe Alam.. ")
 console.log("This is my first Js Code...")
@@ -35,16 +45,34 @@ console.log("Framework.....")
 
 console.log("------")
 
+
+// VARIABLES...... = Container for data,changes(varry) according to the users
+///Camel case=fullName..
+
+
+x=null;
+console.log(x);
+
+
+y=undefined;
+console.log(y);
+
+isfollow=false;
+console.log(isfollow)
+
+var name="Shahe Alam"
+console.log(name)
+
 //Types Of Variables---3 types
 //1-var
 //2-let 
 //3-const
 
-// VARIABLES...... = Container 
-//let used Most--
 
-var name="Shahe Alam"
-console.log(name)
+
+//let used Most----
+let fullName="Shahe Alam";
+console.log(fullName);
 
 let age=21
 console.log(age)
@@ -82,7 +110,7 @@ console.log(a)
 // In "let---"
 
 let d=20
-//redeclaration is not possible
+//redeclaration is not possible(not good)
 //let b=10
 
 d=30
@@ -98,8 +126,12 @@ let lastname=" ShaheAlam"
 let fullname=firstname +" " + lastname
 console.log(fullname)
 
-// VARIABLE EXAMPLE---
+console.log("")
 
+// VARIABLE EXAMPLE---
+console.log("VARIABLE EXAMPLE---");
+
+console.log("")
 var bs=50000
 hra=(10/100)*bs
 da=(5/100)*bs
