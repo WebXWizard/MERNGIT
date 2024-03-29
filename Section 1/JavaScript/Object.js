@@ -1,3 +1,8 @@
+//Objects----
+
+
+
+
 let student ={ 
     name:'Shahe Alam',
     age:21,
