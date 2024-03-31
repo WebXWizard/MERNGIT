@@ -1,0 +1,39 @@
+Setting up React using NEXT.js---
+
+
+npm="Node Package Manager"..
+
+
+1-npm create vite@latest FrontEnd --
+
+2- Download Package ,Framework and Variant..
+  (use arrow key in terminal)
+
+√ Package name: ... frontend
+√ Select a framework: » React
+√ Select a variant: » JavaScript
+
+3- After Downloading and followed previous steps ,you will
+
+  Now run:
+
+  a-cd FrontEnd-- Folder Created Default
+
+  b-npm install--added 278 packages, and audited 279 packages in 32s 103 packages are looking for funding run `npm fund` for details
+          found 0 vulnerabilities.
+
+
+  c-npm run dev--  (running applications)
+
+  > frontend@0.0.0 dev
+  > vite
+
+  After this you will be Redirect to the WEB PAGE---
+
+        VITE v5.2.7  ready in 693 ms
+
+        ➜  Local:   http://localhost:5173/
+        ➜  Network: use --host to expose
+        ➜  press h + enter to show help
+
+
