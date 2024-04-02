@@ -5,6 +5,8 @@ import Navbar from './Components/Navbar'
 import EvenHandling from './Components/EvenHandling'
 import Login from './Components/Login'
 import SignUp from './Components/SignUp'
+import './App.css'
+
 
 
 
