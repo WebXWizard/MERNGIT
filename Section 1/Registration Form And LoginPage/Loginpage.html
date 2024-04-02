@@ -6,37 +6,37 @@
     <title>Login Page</title>
     <style>
        body{
-        background-image: url("https://cdn.dribbble.com/userupload/12550075/file/original-6a0b4d9fb62dc22fd37eb8dc24b9319c.jpg?resize=1024x683");
+        background-image: url(https://www.nicepng.com/png/full/26-266973_image-page-transparent-background-oasis-skin-1-png.png);
         background-size: cover;
         background-repeat: no-repeat;
         display: flex;
         justify-content:center;
-    
+        padding: 80px;
       }
         .mycard{
             width:25%;
-            height: 90%;
+            height: 60vh;
             background:linear-gradient(180deg, rgba(180, 106, 106, 0.5), rgba(255, 255, 255, 0.5));
             padding: 80px;
             display: flex;
             flex-direction: column;
             align-items: center;
-            border-radius: 70px;
+            border-radius: 40px;
         }
         .inp{
             border: none;
-            border-bottom: 1.5px solid black;
-            border-right: 1.5px solid black;
+            /* border-bottom: 1.5px solid black;
+            border-right: 1.5px solid black; */
             border-radius: 5px;
-            background:linear-gradient(180deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
-            color: rgb(175, 56, 56);
+            background:linear-gradient(180deg, rgba(204, 165, 165, 0.5), rgba(255, 255, 255, 0.5));
+            color: rgb(15, 14, 14);
         }
         .inp::placeholder{
-            color: maroon;
-            font-size: 10px;
+            color: rgb(15, 15, 15);
+            font-size: 15px;
         }
         .btn{
-            background-color: maroon;
+            background-color: rgb(37, 29, 29);
             width: 80px;
             color: white;
             padding: 10px;
@@ -45,19 +45,20 @@
             cursor:pointer;
         }
         .btn:hover{
-            background-color: yellow;
-            color: maroon;
+            background-color: rgb(0, 68, 255);
+            color: rgb(14, 11, 11);
             font-size: 15px;
         }
     </style>
 </head>
 <body>
-   <div class="mycard">
-    <h2 style="color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" >Member Login</h2>
-    <img src="https://avatars.githubusercontent.com/u/26999847?s=280&v=4" style="height: 100px; margin-bottom: 20px;">
+   <div class="mycard bg-dark">
+    <h1 style="color: rgb(240, 107, 107); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" >Member Login</h1>
+    <img src="https://static.vecteezy.com/system/resources/thumbnails/021/666/130/small/login-and-password-concept-3d-illustration-computer-and-account-login-and-password-form-page-on-screen-sign-in-to-account-user-authorization-login-authentication-page-concept-png.png" style="height: 150px; margin-bottom: 20px;">
     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quisquam. -->
         <form>
             <input class="inp" type="email" placeholder="Enter your email" style="margin-bottom: 10px; padding: 5px; width:90%;">
+            <br>
             <input class="inp" type="password" placeholder="Enter your password" style="padding:5px; width:90%;">
 
             <button class="btn" style="margin-top: 20px;">Login</button>
