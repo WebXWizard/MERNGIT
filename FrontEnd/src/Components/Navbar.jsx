@@ -28,10 +28,21 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-item">
+                <Link className="nav-link" to="/Login">
+                  Login
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/SignUp">
+                  SignUp
+                </Link>
+              </li>
+              <li className="nav-item">
                 <Link className="nav-link" to="#">
                   Event Handling
                 </Link>
               </li>
+
               <li className="nav-item dropdown">
                 <Link
                   className="nav-link dropdown-toggle"
