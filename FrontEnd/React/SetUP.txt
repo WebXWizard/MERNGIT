@@ -38,4 +38,8 @@ npm="Node Package Manager"..
 
 
 
-JSX=JavaScript + HTML 
+
+   ➜  Local:   http://localhost:5173/ 
+    On link you will be redirect to your web page
+
+                   JSX=JavaScript + HTML (Combination)

@@ -6,6 +6,7 @@ import EvenHandling from './Components/EvenHandling'
 import Login from './Components/Login'
 import SignUp from './Components/SignUp'
 import './App.css'
+import {SnackbarProvider} from 'notistack'
 
 
 
@@ -13,6 +14,7 @@ import './App.css'
 const App = () => {
   return (
     <div>
+      <SnackbarProvider >
     <BrowserRouter>
        <Navbar />
      <Routes>
@@ -23,6 +25,7 @@ const App = () => {
       <Route path='/SignUp' element={<SignUp />} />
      </Routes>
     </BrowserRouter> 
+    </SnackbarProvider>
     </div>
   )
 }
