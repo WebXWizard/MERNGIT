@@ -5,7 +5,7 @@ const EvenHandling = () => {
   const [count,setcount]=useState(0)
  const handleButoonClick=() => 
 //  alert('Why are you Gay')
-  enqueueSnackbar('Why are you Gay')
+  enqueueSnackbar('Why are you Gay Akhilesh')
 
 
   const handleIncrement=() =>
