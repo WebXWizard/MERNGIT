@@ -1,4 +1,4 @@
-Setting up React using NEXT.js---
+Setting up React --
 
 
 npm="Node Package Manager"..
