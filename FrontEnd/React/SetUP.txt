@@ -30,7 +30,7 @@ npm="Node Package Manager"..
 
   After this you will be Redirect to the WEB PAGE---
 
-        VITE v5.2.7  ready in 693 ms
+        VITE v5.2.7  ready in 693 ms...
 
         ➜  Local:   http://localhost:5173/
         ➜  Network: use --host to expose
