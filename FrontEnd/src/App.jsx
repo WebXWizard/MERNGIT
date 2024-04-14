@@ -7,6 +7,7 @@ import Login from './Components/Login'
 import SignUp from './Components/SignUp'
 import './App.css'
 import {SnackbarProvider} from 'notistack'
+import ManageUsers from './Components/ManageUsers'
 
 
 
@@ -23,6 +24,8 @@ const App = () => {
       <Route path='/EventHandling' element={<EvenHandling />} />
       <Route path='/Login' element={<Login />} />
       <Route path='/SignUp' element={<SignUp />} />
+      <Route path='/ManageUsers' element={<ManageUsers />} />
+
      </Routes>
     </BrowserRouter> 
     </SnackbarProvider>

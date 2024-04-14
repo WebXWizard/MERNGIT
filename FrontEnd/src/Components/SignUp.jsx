@@ -54,7 +54,7 @@ const Signup = () => {
     validationSchema: SignupSchema
   })
   return (
-    <div className='container'>
+    <div className='container1'>
       <div className="col">
         <div className="card w-25 d-block mx-auto">
           <div className="card-header ">
@@ -87,7 +87,7 @@ const Signup = () => {
                   onChange={signupForm.handleChange}
                   value={signupForm.values.password} />
               </div>
-              <button type='submit' className="btn btn-primary">Login</button>
+              <button type='submit' className="btn btn-primary">SignUp</button>
             </form>
           </div>
         </div>
