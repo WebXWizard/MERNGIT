@@ -5,6 +5,8 @@ const cors =require('cors');
 
 const userRouter =require ('./Routers/User');
 
+const ProductRouter =require ('./Routers/Product');
+
 
 
 app.use(cors({
@@ -14,6 +16,7 @@ app.use(cors({
 
 app.use(express.json());
 app.use('/user',userRouter);
+app.use('/Product',ProductRouter);
 
 
 app.listen(port , () =>
