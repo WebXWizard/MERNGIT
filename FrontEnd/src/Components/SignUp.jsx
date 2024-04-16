@@ -58,7 +58,7 @@ const Signup = () => {
       <div className="col">
         <div className="card w-25 d-block mx-auto">
           <div className="card-header ">
-            <h2>Signup</h2>
+            <h2 className='card3'>Signup</h2>
           </div>
           <div className="card-body">
             {/* step2: handling when submit */}

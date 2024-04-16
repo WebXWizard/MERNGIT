@@ -46,5 +46,71 @@ npm="Node Package Manager"..
 
 
 
+enqueueSnackbar from notistack--- Notification or Popups ke liye use hota hai
+Notistack is a React library which makes it super easy to display notifications on your web apps.
+ It is highly customizable and as the name suggests, 
+it allows notifications to be stacked on top of one another
+
+Yup from yup--validation ke liyeYup is one of the most popular JavaScript
+ validation libraries for validating data schemas,
+ particularly in forms and data processing.
 
 
+useFormik from formik--Formik is a small library that helps you with the 3 most annoying parts:
+ Getting values in and out of form state.
+ Validation and error messages. 
+ Handling form submission.
+
+
+
+import { useFormik } from 'formik'
+import * as Yup from 'yup'
+import { enqueueSnackbar } from 'notistack'
+
+const LoginSchema = Yup.object().shape({
+  email: Yup.string()
+    .required('Email is required')
+    .email('Email is invalid'),
+  password: Yup.string()
+    .required('Password is required')
+    .min(8, 'Password must be at least 8 characters')
+    .max(15, 'Password must be at most 15 characters')
+})
+
+
+
+
+// step 1: formik initialization
+    const loginForm = useFormik({
+      initialValues: {
+        email: '',
+        password: ''
+      },
+      // onSubmit: (values, {resetForm}) =>{
+      //   console.log(values)
+      //   enqueueSnackbar('Signup successfully', {variant: 'success'})
+      //   resetForm()
+  
+      // },
+      onSubmit: async (values, action) => {
+        console.log(values);
+        const res = await fetch('http://localhost:3000/user/add', {
+          method: 'POST',
+          body: JSON.stringify(values),
+          headers: {
+            'Content-Type': 'application/json'
+          }
+        });
+        console.log(res.status)
+        action.resetForm()
+  
+        if (res.status == 200) {
+          enqueueSnackbar('Login Successful', { variant: 'success' })
+        }
+        else {
+          enqueueSnackbar('Login Failed', { variant: 'error' })
+        }
+      },
+  
+      validationSchema: LoginSchema
+    })
