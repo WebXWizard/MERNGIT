@@ -28,13 +28,23 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/Login">
-                  Login
+                <Link className="nav-link" to="/ManageUsers">
+                  ManageUsers
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/ManageUsers">
-                  ManageUsers
+                <Link className="nav-link" to="/EventHandling">
+                  Event Handling
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/Product">
+                  Product
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/Login">
+                  Login
                 </Link>
               </li>
               <li className="nav-item">
@@ -43,8 +53,8 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/EventHandling">
-                  Event Handling
+                <Link className="nav-link" to="/ContactUs">
+                  Contact Us
                 </Link>
               </li>
 
@@ -80,16 +90,7 @@ const Navbar = () => {
                   </li>
                 </ul>
               </li>
-              <li className="nav-item">
-                <Link
-                  className="nav-link disabled"
-                  to="#"
-                  tabIndex={-1}
-                  aria-disabled="true"
-                >
-                  Disabled
-                </Link>
-              </li>
+             
             </ul>
             <form className="d-flex">
               <input
