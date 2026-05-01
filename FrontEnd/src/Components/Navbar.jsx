@@ -27,11 +27,11 @@ const Navbar = () => {
                   Home
                 </Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link className="nav-link" to="/ManageUsers">
                   ManageUsers
                 </Link>
-              </li>
+              </li> */}
                <li className="nav-item">
                 <Link className="nav-link" to="/EventHandling">
                   Event Handling

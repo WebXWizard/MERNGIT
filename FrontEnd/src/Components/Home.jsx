@@ -1,363 +1,139 @@
-import React from 'react'
+import React from "react";
 
 const Home = () => {
   return (
-    <div className="container0-fluid bg-light vh-85 wh-90 ">
-      <div className="row d-flex  align-items-center ">
-
-
-        <div className="col-md-6  ">
-          {/* <span
-            style={{
-              fontWeight: "bold",
-              fontFamily: 'Cambria, Cochin, Georgia, Times, "Times New Roman", serif',
-              fontSize: "large",
-              alignItems: "center",
-              color: "rgb(179, 166, 151)",
-              border: "1px solid rgb(207, 183, 183)",
-              borderRadius: 5,
-              backgroundColor: "rgb(70, 49, 49)"
-            }}
-            className="text--gq6o- text--is-m--pqiL- vote-btn-text"
-          >
-            2024 Anime Awards Winner <i className="fa-32x fa-solid fa-crown" />
-          </span>
-          <br /> */}
-          <br />
-          <h1
-            style={{
-              fontWeight: "bolder",
-              color: "black",
-              fontFamily: "Verdana, Geneva, Tahoma, sans-serif",
-              display: "flex",
-              justifyContent: "flex-start"
-            }}
-            className="text-primary"
-          >
-            SEE THE WORLD'S TRENDING AND FAMOUS ANIME : JUJUTSU KAISEN(JJK){" "}
+    <div className="container-fluid bg-light py-4">
+      {/* Hero Section */}
+      <div className="row align-items-center mb-5">
+        <div className="col-md-6 mb-3">
+          <h1 className="text-primary fw-bold" style={{ fontFamily: "Verdana" }}>
+            SEE THE WORLD'S TRENDING AND FAMOUS ANIME: JUJUTSU KAISEN (JJK)
           </h1>
-          <h4
-            style={{ display: "flex", alignItems: "first baseline", color: "#a3b6e0" }}
-          >
-            Sub|Dub
-          </h4>
-          <h2
-            style={{
-              fontWeight: "bold",
-              fontFamily: '"Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif',
-              color: "white"
-            }}
-            className="text-secondary"
-          />
-          <h3
-            style={{
-              fontWeight: 200,
-              fontFamily:
-                '"Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif',
-              color: "black"
-            }}
-          >
-            <br />
-            Jujutsu Kaisen is a Japanese manga series written and illustrated by Gege
-            Akutami..
-            <br />
-            Published in Weekly Shonen Jump. An anime adaptation came shortly after,
-            with animation handled by Studio MAPPA.
-            <br />
-            <br />
-          </h3>
+          <h4 className="text-info">Sub | Dub</h4>
+          <p className="text-dark mt-3">
+            Jujutsu Kaisen is a Japanese manga series written and illustrated by Gege Akutami.
+            Published in Weekly Shonen Jump. An anime adaptation came shortly after, with animation
+            handled by Studio MAPPA.
+          </p>
         </div>
-
-        <div className="col-md-6">
+        <div className="col-md-6 text-center">
           <img
             src="https://www.pngall.com/wp-content/uploads/15/Jujutsu-Kaisen-PNG-Image.png"
-            className="w-100 h-5"
-            alt=""
+            className="img-fluid"
+            alt="JJK"
           />
         </div>
-
       </div>
-      <>
 
-
-        {/* Second Conatiner */}
-        <section className="  ">
-          <div className="container11-fluid bg-dark  vh-85 wh-90  ">
-            <div className="row ">
-              <div className="col-md-6">
-                <h1
-                  style={{
-                    display: "flex",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    color:'red'
-                  }}
-                >
-                  Main Character
-                </h1>
-                <img
-                  src="https://www.pngall.com/wp-content/uploads/15/Jujutsu-Kaisen-PNG-Images.png"
-                  className="w-75 h-10"
-                  alt=""
-                />
-              </div>
-              <div className="col-md-6">
-
-                <h4
-                  style={{
-                    display: "flex",
-                    justifySelf: "unset",
-                    fontWeight: "bold"
-                  }}
-                  className=" text-secondary p-3 "
-                >
-                  -&gt;Yuji Itadori || -&gt;Ryemon Sukuna{" "}
-                </h4>
-                <h4
-                  style={{
-                    display: "flex",
-                    justifySelf: "unset",
-                    fontWeight: "bold"
-                  }}
-                  className=" text-secondary p-3 "
-                >
-                  -&gt;Maki Zen'in -&gt;Toge Inumaki.
-                </h4>
-                <h4
-                  style={{
-                    display: "flex",
-                    justifySelf: "unset",
-                    fontWeight: "bold"
-                  }}
-                  className=" text-secondary p-3 "
-                >
-                  -&gt;Satoru Gojo || -&gt;Kinji Hakari.{" "}
-                </h4>
-                <h4
-                  style={{
-                    display: "flex",
-                    justifySelf: "unset",
-                    fontWeight: "bold"
-                  }}
-                  className=" text-secondary p-3 "
-                >
-                  -&gt;Megumi Fushiguro || -&gt;Toji Fushiguro
-                </h4>
-                <h4
-                  style={{
-                    display: "flex",
-                    justifySelf: "unset",
-                    fontWeight: "bold"
-                  }}
-                  className=" text-secondary p-3 "
-                >
-                  -&gt;Nobara Kugisaki || -&gt;Panda{" "}
-                </h4>
-                <h4
-                  style={{
-                    display: "flex",
-                    justifySelf: "unset",
-                    fontWeight: "bold"
-                  }}
-                  className=" text-secondary p-3 "
-                >
-                  -&gt;Yuta Okkotsu || -&gt;Kento Nanami
-                </h4>
-                <h4
-                  style={{
-                    display: "flex",
-                    justifySelf: "unset",
-                    fontWeight: "bold"
-                  }}
-                  className=" text-secondary p-3 "
-                >
-                  -&gt;Suguru Geto || -&gt;Mahito
-                </h4>
-                <h2
-                  style={{
-                    color: "#2727c9",
-                    display: "flex",
-                    justifyContent: "center",
-                    fontWeight: "bolder",
-                    fontFamily: '"Segoe UI", Tahoma, Geneva, Verdana, sans-serif'
-                  }}
-                >
-                  Shibuya Incident Characters
-                </h2>
-                <h4
-                  style={{
-                    display: "flex",
-                    justifySelf: "unset",
-                    fontWeight: "bold"
-                  }}
-                  className=" text-white p-3 "
-                >
-                  -&gt;Gojo Satoru
-                  <br />
-                  <br /> -&gt;Yuji Itadori
-                  <br />
-                  <br /> -&gt;Sukuna
-                  <br /> <br /> -&gt;Megumi Fushiguro...
-                </h4>
-              </div>
+      {/* Character Section */}
+      <section className="bg-dark text-white py-5">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-md-6 mb-4 text-center">
+              <h1 className="text-danger">Main Characters</h1>
+              <img
+                src="https://www.pngall.com/wp-content/uploads/15/Jujutsu-Kaisen-PNG-Images.png"
+                className="img-fluid mt-3"
+                alt="Main Characters"
+              />
+            </div>
+            <div className="col-md-6">
+              <ul className="list-unstyled text-secondary fw-bold">
+                <li>→ Yuji Itadori || Ryomen Sukuna</li>
+                <li>→ Maki Zen'in || Toge Inumaki</li>
+                <li>→ Satoru Gojo || Kinji Hakari</li>
+                <li>→ Megumi Fushiguro || Toji Fushiguro</li>
+                <li>→ Nobara Kugisaki || Panda</li>
+                <li>→ Yuta Okkotsu || Kento Nanami</li>
+                <li>→ Suguru Geto || Mahito</li>
+              </ul>
+              <h2 className="text-primary mt-4 text-center fw-bold">
+                Shibuya Incident Characters
+              </h2>
+              <ul className="list-unstyled text-white fw-bold">
+                <li>→ Gojo Satoru</li>
+                <li>→ Yuji Itadori</li>
+                <li>→ Sukuna</li>
+                <li>→ Megumi Fushiguro...</li>
+              </ul>
             </div>
           </div>
-        </section>
-
-      </>
-      <>
-  {/* Other Section */}
-  <section className="">
-    <div className="container-fluid bg-dark wh-90 ">
-      <div className="row ">
-        {/* 1st Column Section */}
-        <div className="col-md-6 mt-2  ">
-          <h1
-            style={{
-              fontWeight: "bolder",
-              color: "black",
-              fontFamily: "Verdana, Geneva, Tahoma, sans-serif",
-              display: "flex",
-              justifyContent: "center"
-            }}
-            className="text-danger"
-          >
-            ABOUT US{" "}
-          </h1>
-          <h4
-            style={{
-              fontWeight: 500,
-              fontFamily:
-                '"Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif',
-              color: "rgb(220, 231, 231)"
-            }}
-          >
-            <br />
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit..
-            <br /> Laboriosam id optio nostrum nobis quo voluptas dignissimos
-            impedit repellat incidunt unde fugiat.
-            <br /> voluptatum eum sunt deserunt provident quam pariatur culpa
-            est!
-            <br />
-            <br /> Gojo Satoru || <br />
-            Yuji Itadori ||
-            <br /> Sukuna ||
-            <br /> Megumi Fushiguro..{" "}
-          </h4>
-          <br />
-          <iframe
-            width={660}
-            height={400}
-            src="https://www.youtube.com/embed/Ig89Ot0UfvE?si=Mz1Bfq74T3wLGixZ"
-            title="YouTube video player"
-            frameBorder={0}
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
-            allowFullScreen=""
-          />
         </div>
-        {/* 2nd Column Section   */}
-        <div className="col-md-6  ">
-          <img
-            src="https://www.pngall.com/wp-content/uploads/15/Jujutsu-Kaisen-PNG-Photos.png"
-            className="img-fluid "
-            alt=""
-          />
+      </section>
+
+      {/* About Section */}
+      <section className="bg-dark text-white py-5">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-lg-6 mb-4">
+              <h1 className="text-danger text-center">ABOUT US</h1>
+              <p className="mt-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam id optio nostrum
+                nobis quo voluptas dignissimos impedit repellat incidunt unde fugiat. Voluptatum eum
+                sunt deserunt provident quam pariatur culpa est!
+              </p>
+              <p>Gojo Satoru || Yuji Itadori || Sukuna || Megumi Fushiguro..</p>
+              <div className="ratio ratio-16x9">
+                <iframe
+                  src="https://www.youtube.com/embed/Ig89Ot0UfvE?si=Mz1Bfq74T3wLGixZ"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
+              </div>
+            </div>
+            <div className="col-lg-6 text-center">
+              <img
+                src="https://www.pngall.com/wp-content/uploads/15/Jujutsu-Kaisen-PNG-Photos.png"
+                className="img-fluid"
+                alt="About"
+              />
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
+
+      {/* GOJO Section */}
+      <section className="py-5">
+        <div className="row align-items-center">
+          <div className="col-md-6">
+            <h3 className="text-info fw-bold">GOJO SATORU: GOAT OF JJK</h3>
+            <p>
+              Gojō Satoru is one of the main protagonists of the Jujutsu Kaisen series.
+              <br />
+              He is a special grade jujutsu sorcerer and widely recognized as the strongest in the world.
+              <br />
+              Satoru is the pride of the Gojo Clan, the first person to inherit both the Limitless and the
+              Six Eyes in four hundred years.
+            </p>
+            <img
+              src="https://www.pngall.com/wp-content/uploads/14/Gojo-PNG.png"
+              className="img-fluid w-50"
+              alt="Gojo Satoru"
+            />
+          </div>
+          <div className="col-md-6 text-center">
+            <img
+              src="https://www.pngall.com/wp-content/uploads/14/Gojo-PNG-File.png"
+              className="img-fluid"
+              alt="Gojo"
+            />
+            <h2 className="text-danger fw-bold mt-3">THE GOAT</h2>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="bg-light text-center py-4">
+        <p style={{ fontWeight: "bold", fontSize: 20 }}>
+          © 2024 Copyright:{" "}
+          <a href="https://animeworld.com/" style={{ color: "rgb(26, 24, 24)" }}>
+            AnimeWorld.com
+          </a>
+        </p>
+      </footer>
     </div>
-  </section>
-</>
+  );
+};
 
-<div className="container-fluid  p-3">
-  <div className="row">
-    <div className="col-md-6">
-      <h3
-        style={{
-          fontWeight: "bolder",
-          color: "black",
-          fontFamily: "Verdana, Geneva, Tahoma, sans-serif",
-          display: "flex",
-          justifyContent: "left"
-        }}
-        className="text-info"
-      >
-        GOJO SATORU : GOAT OF JJK
-      </h3>
-      <h4
-        style={{
-          fontFamily:
-            '"Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif',
-          color: "black"
-        }}
-      >
-        <br /> Gojō Satoru is one of the main protagonists of the Jujutsu Kaisen
-        series.
-        
-        <br /> He is a special grade jujutsu sorcerer and widely recognized as
-        the strongest in the world.
-        <br /> Satoru is the pride of the Gojo Clan, the first person to inherit
-        both the Limitless and the Six Eyes in four hundred years
-        <br />
-        <br />
-      </h4>
-      <img
-                  src="https://www.pngall.com/wp-content/uploads/14/Gojo-PNG.png"
-                  className="w-50 h-10"
-                  alt=""
-                />
-    </div>
-    
-    <div className="col-md-6">
-    <img
-                  src="https://www.pngall.com/wp-content/uploads/14/Gojo-PNG-File.png"
-                  className="w-100 h-10"
-                  alt=""
-                />
-      
-      <h2
-        style={{
-          fontWeight: "bolder",
-          color: "black",
-          fontFamily: "Verdana, Geneva, Tahoma, sans-serif",
-          display: "flex",
-          justifyContent: "center"
-        }}
-        className="text-danger"
-      >
-        THE GOAT{" "}
-      </h2>
-    </div>
-  </div>
-</div>
-
-
-
-
-
-<footer>
-  <div
-    style={{ fontWeight: "bolder", fontSize: 20 }}
-    className="text-center bg-light p-4"
-  >
-    © 2024 Copyright:
-    <a
-      style={{ fontWeight: 10000, color: "rgb(26, 24, 24)" }}
-      className=""
-      href="https://animeworld.com/"
-    >
-      Anime World.com
-    </a>
-  </div>
-</footer>
-
-
-    </div>
-
-
-
-
-  )
-}
-
-export default Home
+export default Home;
